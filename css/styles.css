@@ -1,0 +1,74 @@
+/* body {
+  color: var(--primary-text-color);
+  font-family: Roboto, Raleway, Montserrat, sans-serif;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+} */
+.container {
+  width: 100%;
+
+  @media screen and (max-width: 319px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+/* скидаємо MARGIN де це потрібно */
+ul,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+/* Для картинок прибираємо нижній просвіт */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.advantages__box {
+  background: #84a178;
+}
+.advantages__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #fcfcfc;
+}
+.advantages__paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  text-align: center;
+  color: #fcfcfc;
+}
