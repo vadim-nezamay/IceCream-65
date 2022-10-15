@@ -47,8 +47,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* .h2 {
+  text-align: center;
+} */
 .advantages__box {
   background: #84a178;
+  text-align: center;
 }
 .advantages__title {
   font-family: 'Roboto';
